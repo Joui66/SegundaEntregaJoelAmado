@@ -6,7 +6,7 @@ class Pokemons{
     this.rareza = rareza;
 }
 infoPokedex(){
-console.log(`${this.nombre} es un Pokemon de tipo ${this.tipo} su numero en la Pokedex es el ${this.id} y segun los juegos su rareza es ${this.rareza}`);}
+console.log(`${this.nombre} es un Pokemon de tipo ${this.tipo} su numero en la Pokedex mundial es el ${this.id} y segun los juegos su rareza es ${this.rareza}`);}
 }
 
 const Pokemon1 = new Pokemons(1, "Bulbasaur", "Planta/Veneno", "Inicial")
